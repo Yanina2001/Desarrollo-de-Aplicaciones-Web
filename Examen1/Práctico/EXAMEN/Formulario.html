@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8"/>
+        <title>Formulario</title>
+    </head>
+    <body>
+        
+        <div style="background-color: yellow;"> 
+            <h1 style="text-align: center;">Examen 1er Parcial Practico</h1>
+        </div>
+        <hr>
+        <h2>EL SIGUIENTE FORMULARIO ES PARA EL EXAMEN</h2>
+
+        <fieldset style="border: 1px black solid">
+            <legend style="border: 1px black solid;margin-left: 1em; padding: 0.2em 0.8em ">Datos Personales:</legend>
+      
+            <form action="/my-handling-form-page" method="post">
+                
+                <label for="name">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" />
+                <br>
+                <br>
+                
+                <label for="msg">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <br>
+                <br>
+                
+                <label for="msg">Boleta:</label>
+                <input type="text" id="boleta" name="boleta">
+                <br>
+                <br>
+                                
+                <label for="mail">E-mail:</label>
+                <input type="email" id="correo" name="correo" />
+                <br>
+                <br>
+            
+            
+
+            <!--siguiente formulario ydlo-->
+
+            <fieldset style="border: 1px black solid">
+                <legend style="border: 1px black solid;margin-left: 1em; padding: 0.2em 0.8em ">Información Adicional:</legend>
+          
+                <form action="/my-handling-form-page" method="post">
+                    
+                    <label for="name">Seleccione el número de su preferencia</label>
+                    <select name="ingrediente" id="ingrediente">
+                        <option value="cero">0</option>
+                        <option value="uno">1</option>
+                        <option value="dos">2</option>
+                        <option value="tres">3</option>
+                        <option value="cuatro">4</option>
+                        <option value="cinco">5</option>
+                        <option value="seis">6</option>
+                        <option value="siete">7</option>
+                        <option value="ocho">8</option>
+                        <option value="nueve">9</option>
+                    </select>
+                    <br>
+                    <br>
+                    
+                    <label for="msg">Coméntenos porque es su número favorito:</label>
+                    <textarea id="msg" name="user_message" cols="50" rows="5"></textarea>
+                    <br>
+                    <br>
+        
+                
+              </fieldset>
+              <br>
+              <br>
+              <input type="submit" value="Restablecer">
+              <input type="reset" value="Enviar">
+              </form>
+            </form>
+          </fieldset>
+    
+        <br>
+        <div style="background-color: rgba(255, 196, 0, 0.856); padding: 30px;">
+            <p><strong>Materia: Desarrollo de Aplicaciones Web.</strong></p>
+            <p><strong>Grupo: 4CDV1</strong></p>
+            <P><strong>Nombre: De Luna Ocampo Yanina.</strong></P>
+        </div>
+        <br>
+
+    </body>
+</html>
